@@ -1,11 +1,18 @@
 {
   "name": "try-ports",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "try port eg. 8888, if in use try port +1, rinse and repeat.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "*",
+    "!/test",
+    "!test.js",
+    "!/.git",
+    "!.gitignore"
+  ],  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Paul-Browne/npm-try-ports.git"
